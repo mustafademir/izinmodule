@@ -20,6 +20,6 @@ public class IzinRequest extends AbstractEntity {
     @Column
     private Long requestedIzinNumber;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Employee employee;
 }
